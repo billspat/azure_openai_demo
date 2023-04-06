@@ -1,0 +1,4 @@
+# replace the placeholders in this file and save with exact name .env
+OPENAI_API_KEY=<key_from_portal>
+OPENAI_NAME=<name>, the name from port, e.g. https://<name>.openai.azure.com/
+OPENAI_ENGINE=<name of your deployment in OpenAI studio>
