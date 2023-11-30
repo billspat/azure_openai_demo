@@ -104,14 +104,3 @@ This very small sample code demonstrates how to call an existing model
    - with a single prompt: `python openai_completion_example.py "Is AI useful for anything?"`
    - start a chat session: `python openai_completion_example.py chat` \
      enter prompts that are related.  The program sends previous prompts to try to make it more conversation like. 
-
-### Sample Shell Script
-
-There is an example that uses the REST api and the shell.  No python is needed.  
-
-
-1. create a file `.env` as described above following the example file `example_dotenv.txt`
-
-2. From the terminal, Azure cloud shell,  or Linux shell in windows), run the command `./complete_this.sh 
-   
-
