@@ -5,4 +5,5 @@
 .Rprofile
 azure_openai.Rproj
 renv.lock
+.Rproj.user/
 renv/
