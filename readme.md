@@ -6,6 +6,10 @@ This is intermediate exercise that assumes you know how to use the Azure command
 
 Do not use this program as part of a public web application or expose your secret keys and account names in anyway, ever.  You may be charged for each invocation in your Azure account.    Do not put the account keys directly in the code, and if you use the '.env' method to load secrets like keys, do not put .env into github. 
 
+For more examples like this from Azure, see https://github.com/Azure-Samples/openai
+
+Note that you don't need Azure to work with OpenAI; this demo is part of the [MSU Cloud Computing Fellowship 2023](https://msu-icer.github.io/cloudcomputingfellowship/), which is based on Azure. .  OpenAI has their own platform: https://platform.openai.com/overview ( requires a free account). 
+
 
 ### Creating a 'model' to work with.  
 
