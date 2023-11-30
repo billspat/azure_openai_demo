@@ -50,7 +50,13 @@ def generate_completion(client,
 
 
 def chat(client, deployment_name):
+  """start a command line chat loop using the client.  
+  Code from https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/chatgpt?tabs=python-new
+  Args:
+    client (AzureOpenAI client): client object
+    deployment_name (str): name of deployment from Azure open ai
 
+  """
   conversation=[{"role": "system", "content": "You are a helpful assistant."}]
 
   print("-----------------")
